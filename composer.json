@@ -5,8 +5,7 @@
 	"license": "MIT",
 	"type": "library",
 	"require": {
-		"neonbug/meexo": "*", 
-		"neonbug/meexo-common": "*"
+		"neonbug/meexo-common": "0.*"
 	},
 	"autoload": {
 		"psr-4": {
