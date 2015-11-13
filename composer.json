@@ -1,0 +1,16 @@
+{
+	"name": "neonbug/meexo-text",
+	"description": "Text package for Meexo CMS",
+	"keywords": ["meexo", "cms", "laravel", "php"],
+	"license": "MIT",
+	"type": "library",
+	"require": {
+		"neonbug/meexo": "*", 
+		"neonbug/meexo-common": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Neonbug\\Text\\": "src"
+		}
+	}
+}
