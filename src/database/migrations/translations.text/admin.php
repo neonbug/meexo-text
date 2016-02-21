@@ -14,6 +14,7 @@ return [
 	$p . 'list.field-title.title'      => [ 'en' => 'Title',   'sl' => 'Naziv' ], 
 	$p . 'list.field-title.slug'       => [ 'en' => 'Url',     'sl' => 'Url' ], 
 	$p . 'list.field-title.updated_at' => [ 'en' => 'Updated', 'sl' => 'Posodobljeno' ], 
+	$p . 'list.field-title.link'       => [ 'en' => 'Link',    'sl' => 'Povezava' ], 
 	
 	$p . 'add.field-title.title'      => [ 'en' => 'Title',    'sl' => 'Naziv' ], 
 	$p . 'add.field-title.slug'       => [ 'en' => 'Url',      'sl' => 'Url' ], 

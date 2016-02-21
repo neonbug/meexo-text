@@ -39,6 +39,9 @@
 			'updated_at' => [
 				'type' => 'date', 
 				'important' => false
+			], 
+			'link' => [
+				'type' => 'content-link'
 			]
 		]
 	], 
