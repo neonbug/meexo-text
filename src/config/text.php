@@ -66,11 +66,6 @@
 			]
 		], 
 		'language_independent_fields' => [
-			[
-				'name' => 'main_image', 
-				'type' => 'image', 
-				'value' => ''
-			]
 		]
 	], 
 	
@@ -94,11 +89,6 @@
 			]
 		], 
 		'language_independent_fields' => [
-			[
-				'name' => 'main_image', 
-				'type' => 'image', 
-				'value' => ''
-			]
 		]
 	]
 	
