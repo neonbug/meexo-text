@@ -138,6 +138,9 @@ class ServiceProvider extends \Neonbug\Common\Providers\BaseServiceProvider {
 		
 		foreach ($slugs as $slug)
 		{
+			// skip empty slugs
+			if ($slug->value == '') continue;
+			
 			$router->get($slug->value, [ 'as' => $route_name_prefix . $slug->value, 
 				function() use ($slug) {
 				$controller = App::make(static::CONTROLLER);
